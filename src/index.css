@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .container-main{
+    @apply max-w-[1170px] mx-auto px-6
+   }
+   .btn{
+    @apply font-secondary font-medium text-white py-3 px-5 sm:py-[20px] sm:px-[50px] bg-primary rounded-[50px] active:scale-95 border border-primary hover:border-borderColor hover:bg-transparent duration-300 outline-none text-sm sm:text-base
+   }
+}
