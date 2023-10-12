@@ -17,8 +17,14 @@ export default {
         primary: ["Poppins", "sans-serif"],
         secondary: ["Rubik", "sans-serif"],
       },
+      borderRadius: {
+        5: "50px",
+      },
+      screens: {
+        secondPortriait: "412px",
+        eXpensiveLandscape: "733px",
+      },
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 };
-
