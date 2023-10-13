@@ -6,6 +6,9 @@
     @apply max-w-[1170px] mx-auto px-6;
   }
   .btn {
-    @apply font-secondary font-medium text-white py-3 px-5 sm:py-[20px] sm:px-[50px] bg-primary rounded-5 active:scale-95 border border-primary hover:border-borderColor hover:bg-transparent duration-300 ease-linear outline-none text-sm sm:text-base;
+    @apply font-secondary font-medium text-white py-3 px-5 sm:py-[20px] sm:px-[50px] hover:bg-primary rounded-5 active:scale-95 border-2 hover:border-primary border-borderColor bg-transparent duration-300 ease-linear outline-none text-sm sm:text-base;
+  }
+  .title {
+    @apply font-primary text-5xl sm:text-6xl font-semibold;
   }
 }

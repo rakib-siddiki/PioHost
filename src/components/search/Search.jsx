@@ -14,7 +14,7 @@ const Search = () => {
           <div className="flex items-center sm:gap-x-2 text-subHeading absolute top-5 sm:top-8 right-24 sm:right-44">
             All <BiChevronDown />
           </div>
-          <div className="flex items-center btn absolute top-[9px] sm:top-3.5 md:top-3 -right-5 hover:bg-primary border-none gap-x-2 cursor-pointer py-3.5 sm:py-5 ">
+          <div className="flex items-center btn absolute top-[9px] sm:top-3.5 md:top-3 -right-5 bg-primary border-none gap-x-2 cursor-pointer py-3.5 sm:py-5   shadow-xl  xl:shadow-primary/30 shadow-primary/20">
             <BiSearch /> Search
           </div>
         </div>

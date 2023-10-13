@@ -27,7 +27,7 @@ const Navbar = () => {
 
           {/* right */}
           <div className=" text-end flex items-center gap-x-2 lg:gap-x-10">
-            <button className="btn flex items-center justify-center gap-x-1.5">
+            <button className="btn bg-primary border-none flex items-center justify-center gap-x-1.5">
               <TiKeyOutline className="text-white font-medium " />
               WHMSC
             </button>
