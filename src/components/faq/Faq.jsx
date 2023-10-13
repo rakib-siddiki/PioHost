@@ -16,7 +16,7 @@ const Faq = () => {
           <div>
             <h3 className="text-white font-semibold">FAQ</h3>
             <div className="mt-3 md:mt-5 xl:mt-8">
-              <h2 className="font-primary font-semibold text-2xl md:text-4xl xl:text-[46px] text-white ">
+              <h2 className="font-primary font-semibold text-2xl md:text-4xl xl:text-[46px] text-white md:leading-[50px] xl:leading-[65px]">
                 Get Every Single Answer From Here.
               </h2>
               <p className="font-secondary text-sm md:text-lg xl:text-[22px] text-white my-3 md:my-5 xl:my-8">
@@ -44,7 +44,7 @@ const Faq = () => {
                   )}
                 </div>
                 <div className="text-white ml-8">
-                  <h3 className="font-secondary">
+                  <h3 className="font-secondary lg:text-[15px] xl:text-base">
                     How do I give my computer a static local IP address?
                   </h3>
                   <p
@@ -77,7 +77,7 @@ const Faq = () => {
                   )}
                 </div>
                 <div className="text-white ml-8">
-                  <h3 className="font-secondary">
+                  <h3 className="font-secondary lg:text-[15px] xl:text-base">
                     Why can't people connect to the web server on my PC?
                   </h3>
                   <p
@@ -110,7 +110,7 @@ const Faq = () => {
                   )}
                 </div>
                 <div className="text-white ml-8">
-                  <h3 className="font-secondary">
+                  <h3 className="font-secondary lg:text-[15px] xl:text-base">
                     What domain name should I choose for my site?
                   </h3>
                   <p
