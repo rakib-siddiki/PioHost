@@ -115,7 +115,7 @@ const Faq = () => {
                   </h3>
                   <p
                     className={`text-white font-secondary mt-3 md:mt-5 xl:mt-6 
-                ${show3 ? `block` : `hidden`}`}
+                ${show3 ? `block` :`hidden`}`}
                   >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna
