@@ -8,7 +8,7 @@ const Faq = () => {
 
   return (
     <>
-      <section className="bg-primary py-10 md:py-24 xl:py-[120px]">
+      <section className="bg-primary py-10 md:py-24 xl:py-17">
         <div className="sm:grid grid-cols-2 gap-x-8 container-main">
           <div className=" sm:mt-24 md:mt-20 lg:mt-0">
             <img src={faqImg} alt="FaqImg" />

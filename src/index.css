@@ -12,3 +12,6 @@
     @apply font-primary text-5xl sm:text-6xl font-semibold;
   }
 }
+body{
+  overflow-x: hidden;
+}
