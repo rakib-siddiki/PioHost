@@ -15,3 +15,28 @@
 body{
   overflow-x: hidden;
 }
+.slick-slide {
+  /* margin: 0px 5px; */
+  padding: 1rem;
+}
+.slick-dots li button::before {
+  font-family: 'slick';
+  font-size: 18px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  /* color: black; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+.slick-dots li.slick-active button::before {
+  opacity: 1;
+  color: #fff;
+}

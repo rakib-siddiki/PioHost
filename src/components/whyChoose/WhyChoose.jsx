@@ -15,13 +15,13 @@ const WhyChoose = () => {
             </p>
           </div>
           {/* ==========cards============ */}
-          <div className="flex flex-wrap lg:flex-nowrap justify-evenly gap-4 md:gap-x-1 relative">
+          <div className="md:flex flex-wrap lg:flex-nowrap justify-evenly gap-4 md:gap-x-1 relative">
             {/* horizontal line  */}
-            <div className=" xl:absolute content-[] top-[309px] left-[212px]  xl:w-[330px]  xl:h-[2px] z-10 bg-[#eeefff]"></div>
+            <div className=" xl:absolute content-[] top-[309px] left-[214px]  xl:w-[330px]  xl:h-[2px] -z-10 bg-[#eeefff]"></div>
             {/* horizontal line  */}
 
             {/* card1  */}
-            <main className="text-center mb-10 px-2 py-2 hover:shadow-sm duration-300 ease-linear rounded-md mt-5  sm:mt-8 xl:mt-10">
+            <main className="text-center  md:px-2 md:py-2 px-2 py-2  hover:shadow-sm duration-300 ease-linear rounded-md mt-5 md:mb-10 sm:mt-8 xl:mt-10">
               <img
                 className="mx-auto"
                 src={dataMigration}
@@ -42,7 +42,7 @@ const WhyChoose = () => {
             </main>
             {/* card1  */}
             {/* card1  */}
-            <main className="text-center mb-10 px-2 py-2 hover:shadow-sm duration-300 ease-linear rounded-md mt-5  sm:mt-8 xl:mt-10">
+            <main className="text-center  md:px-2 md:py-2 px-2 py-2  hover:shadow-sm duration-300 ease-linear rounded-md mt-5 md:mb-10 sm:mt-8 xl:mt-10">
               <img className="mx-auto" src={dDos} alt="dataMigration" />
               <div className="hidden lg:block md:my-8 xl:my-10">
                 <button className=" outline-none w-10 h-10 rounded-full border border-[#eeefff] font-secondary text-primary hover:bg-primary hover:text-white ">
@@ -60,11 +60,11 @@ const WhyChoose = () => {
             {/* card1  */}
 
             {/* horizontal line  */}
-            <div className=" xl:absolute content-[] top-[309px] right-[212px]  xl:w-[330px]  xl:h-[2px] z-10 bg-[#eeefff]"></div>
+            <div className=" xl:absolute content-[] top-[309px] right-[214px]  xl:w-[330px]  xl:h-[2px] z-10 bg-[#eeefff]"></div>
             {/* horizontal line  */}
 
             {/* card1  */}
-            <main className="text-center mb-10 px-2 py-2 hover:shadow-sm duration-300 ease-linear rounded-md mt-5  sm:mt-8 xl:mt-10">
+            <main className="text-center  md:px-2 md:py-2 px-2 py-2  hover:shadow-sm duration-300 ease-linear rounded-md mt-5  sm:mt-8 xl:mt-10">
               <img className="mx-auto" src={dataSecurity} alt="dataMigration" />
               <div className="hidden lg:block md:my-8 xl:my-10">
                 <button className=" outline-none w-10 h-10 rounded-full border border-[#eeefff] font-secondary text-primary hover:bg-primary hover:text-white ">

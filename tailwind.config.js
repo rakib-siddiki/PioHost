@@ -24,10 +24,12 @@ export default {
         secondPortriait: "412px",
         Landscape2: "667px",
       },
-      dropShadow:{
-        custom: "1px 10px 63px -10px rgba(63,106,255,0.71)"
-
-      }
+      dropShadow: {
+        custom: "1px 10px 63px -10px rgba(63,106,255,0.71)",
+      },
+      spacing: {
+        "17": "120px",
+      },
     },
   },
   plugins: ["prettier-plugin-tailwindcss"],

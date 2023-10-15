@@ -44,11 +44,11 @@ const Faq = () => {
                   )}
                 </div>
                 <div className="text-white ml-8">
-                  <h3 className="font-secondary lg:text-[15px] xl:text-base">
+                  <h3 className="font-secondary  lg:text-[15px] xl:text-base">
                     How do I give my computer a static local IP address?
                   </h3>
                   <p
-                    className={`text-white font-secondary mt-3 md:mt-5 xl:mt-6 
+                    className={`text-white text-sm font-secondary mt-3 md:mt-5 xl:mt-6 
                 ${show ? `block` : `hidden`} `}
                   >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
