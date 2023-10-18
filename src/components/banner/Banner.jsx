@@ -1,11 +1,9 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <>
       <section className="bg-banner bg-cover bg-no-repeat bg-top  xl:pb-16 flex justify-center">
-        <div className="flex flex-col items-center">
-          <p className="font-secondary font-medium text-white text-sm pt-[100px]">
+        <div className="flex flex-col items-center pt-10 md:pt-[100px]">
+          <p className="font-secondary font-medium text-white text-sm">
             Inclued Every Isometric Illustrations
           </p>
           <h1 className="font-primary font-semibold text-3xl sm:text-5xl xl:text-8xl  max-w-[890px] text-white text-center xl:py-10 py-5">

@@ -2,6 +2,7 @@ import logo from "../../assets/navbar/logo.png";
 import { TiKeyOutline } from "react-icons/ti";
 import { BiSearch } from "react-icons/bi";
 import { FaBars } from "react-icons/fa";
+import NavbarResponsive from "./NavbarResponsive";
 const Navbar = () => {
   return (
     <>
@@ -37,6 +38,7 @@ const Navbar = () => {
           {/* right */}
         </div>
       </section>
+      <NavbarResponsive/>
     </>
   );
 };
