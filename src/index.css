@@ -11,6 +11,9 @@
   .title {
     @apply font-primary text-[#000c35] text-5xl sm:text-6xl font-semibold;
   }
+   .underline-effect{
+  @apply  relative  after:absolute after:duration-300 after:bottom-0 after:left-0 after:w-0 after:hover:w-20 after:h-[2px] after:bg-amber-300
+  }
 }
 body {
   overflow-x: hidden;
@@ -40,3 +43,4 @@ body {
   opacity: 1;
   color: #fff;
 }
+

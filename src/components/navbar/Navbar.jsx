@@ -16,12 +16,12 @@ const Navbar = () => {
 
           {/* center  */}
           <div className=" text-center">
-            <ul className="flex justify-center items-center xl:gap-x-8 font-secondary font-medium text-sm text-white">
-              <li>Home +</li>
-              <li>Hosting +</li>
-              <li> Pages +</li>
-              <li>News</li>
-              <li>Contact</li>
+            <ul className="flex justify-center items-center xl:gap-x-8 font-secondary font-medium text-sm text-white cursor-pointer">
+              <li className="underline-effect hover:after:w-14 active:scale-90">Home +</li>
+              <li className="underline-effect hover:after:w-14 active:scale-90">Hosting +</li>
+              <li className="underline-effect hover:after:w-14 active:scale-90"> Pages +</li>
+              <li className="underline-effect hover:after:w-14 active:scale-90">News</li>
+              <li className="underline-effect hover:after:w-14 active:scale-90">Contact</li>
             </ul>
           </div>
           {/* center  */}
@@ -38,7 +38,7 @@ const Navbar = () => {
           {/* right */}
         </div>
       </section>
-      <NavbarResponsive/>
+      <NavbarResponsive />
     </>
   );
 };
