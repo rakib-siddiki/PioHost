@@ -30,7 +30,7 @@ const NavbarResponsive = () => {
             <div>
               {/* center  */}
               <div className=" text-left mt-3 mb-5 pl-5">
-                <ul className="font-secondary font-medium text-xl md:text-sm text-white flex flex-col gap-1 ml-[90px]">
+                <ul className="font-secondary font-medium text-xl md:text-sm text-white flex flex-col gap-1 ml-[90px] secondPortriait:ml-[105px]  sm:landscape:ml-[235px] sm:landscape3:ml-[270px]">
                   <li className="active:scale-[.98] cursor-pointe underline-effect">
                     Home{" "}
                   </li>
