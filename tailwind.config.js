@@ -23,6 +23,7 @@ export default {
       screens: {
         secondPortriait: "412px",
         Landscape2: "667px",
+        Landscape3: "768px",
       },
       dropShadow: {
         custom: "1px 10px 63px -10px rgba(63,106,255,0.71)",

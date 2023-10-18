@@ -17,7 +17,7 @@ const WhyChoose = () => {
           {/* ==========cards============ */}
           <div className="md:flex flex-wrap lg:flex-nowrap justify-evenly gap-4 md:gap-x-1 relative">
             {/* horizontal line  */}
-            <div className=" xl:absolute content-[] top-[309px] left-[214px]  xl:w-[330px]  xl:h-[2px] -z-10 bg-[#eeefff]"></div>
+            <div className=" absolute content-[''] lg:top-[290px] xl:top-[309px] lg:left-[167px] xl:left-[214px]   lg:w-[301px] xl:w-[330px]  h-[2px] -z-10 bg-[#eeefff]"></div>
             {/* horizontal line  */}
 
             {/* card1  */}
@@ -60,7 +60,7 @@ const WhyChoose = () => {
             {/* card1  */}
 
             {/* horizontal line  */}
-            <div className=" xl:absolute content-[] top-[309px] right-[214px]  xl:w-[330px]  xl:h-[2px] z-10 bg-[#eeefff]"></div>
+            <div className=" absolute content-[''] lg:top-[290px]  lg:right-[167px] lg:w-[301px] xl:top-[309px] xl:right-[214px]  xl:w-[330px]  h-[2px] z-10 bg-[#eeefff] "></div>
             {/* horizontal line  */}
 
             {/* card1  */}

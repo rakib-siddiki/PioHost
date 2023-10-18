@@ -9,10 +9,10 @@
     @apply font-secondary font-medium text-white py-3 px-5 sm:py-[20px] sm:px-[50px] hover:bg-primary rounded-5 active:scale-95 border-2 hover:border-primary border-borderColor bg-transparent duration-300 ease-linear outline-none text-sm sm:text-base;
   }
   .title {
-    @apply font-primary text-5xl sm:text-6xl font-semibold;
+    @apply font-primary text-[#000c35] text-5xl sm:text-6xl font-semibold;
   }
 }
-body{
+body {
   overflow-x: hidden;
 }
 .slick-slide {
@@ -20,7 +20,7 @@ body{
   padding: 1rem;
 }
 .slick-dots li button::before {
-  font-family: 'slick';
+  font-family: "slick";
   font-size: 18px;
   line-height: 20px;
   position: absolute;
@@ -28,9 +28,9 @@ body{
   left: 0;
   width: 20px;
   height: 20px;
-  content: '•';
+  content: "•";
   text-align: center;
-  opacity: .25;
+  opacity: 0.25;
   /* color: black; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

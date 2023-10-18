@@ -75,9 +75,9 @@ const Testimonial = () => {
       name: `Rakib siddiki`,
     },
   ];
-// card data
+  // card data
 
-// mapping data 
+  // mapping data
   let silderCard = [];
   silderCard = data.map((item, i) => <Card item={item} key={i}></Card>);
 

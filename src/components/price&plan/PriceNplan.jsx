@@ -75,8 +75,10 @@ const PriceNplan = () => {
           </main>
         </div>
         {/* card  */}
-        <div className="flex justify-center items-center px-2 mt-5
-        ">
+        <div
+          className="flex justify-center items-center px-2 mt-5
+        "
+        >
           <h4 className=" w-[450px] md:w-[570px] rounded-5 text-[#000c35] text-sm sm:text-base font-medium  bg-white py-5 inline-block text-center">
             <span className="text-primary underline  cursor-pointer">
               See plan details
