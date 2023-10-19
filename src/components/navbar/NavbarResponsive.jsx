@@ -23,7 +23,7 @@ const NavbarResponsive = () => {
           </div>
           {/* left */}
           <div
-            className={`fixed duration-500 bg-behind w-full mt-10 z-50 ${
+            className={`fixed duration-500 bg-behind w-full h-full mt-10 z-50 ${
               show ? `left-0` : `-left-full`
             }`}
           >
