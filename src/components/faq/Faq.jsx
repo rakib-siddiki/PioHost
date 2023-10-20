@@ -33,22 +33,22 @@ const Faq = () => {
                   show ? `border-white` : `border-borderColor`
                 }`}
               >
-                <div
-                  onClick={() => setShow((prev) => !prev)}
-                  className="absolute top-6 left-2 "
-                >
+                <div className="absolute top-6 left-2 ">
                   {show ? (
                     <AiOutlineEyeInvisible className="text-white text-xl" />
                   ) : (
                     <AiOutlineEye className="text-white text-xl" />
                   )}
                 </div>
-                <div className="text-white ml-8">
-                  <h3 className="font-secondary  lg:text-[15px] xl:text-base">
+                <div
+                  onClick={() => setShow((prev) => !prev)}
+                  className="text-white ml-8 cursor-pointer"
+                >
+                  <h3 className="font-secondary  lg:text-[15px] xl:text-base ">
                     How do I give my computer a static local IP address?
                   </h3>
                   <p
-                    className={`text-white text-sm font-secondary mt-3 md:mt-5 xl:mt-6 
+                    className={`text-white text-sm font-secondary mt-3 md:mt-5 xl:mt-6 cursor-auto 
                 ${show ? `block` : `hidden`} `}
                   >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -66,22 +66,22 @@ const Faq = () => {
                   show2 ? `border-white` : `border-borderColor`
                 }`}
               >
-                <div
-                  onClick={() => setShow2((prev) => !prev)}
-                  className="absolute top-6 left-2 "
-                >
+                <div className="absolute top-6 left-2 ">
                   {show2 ? (
                     <AiOutlineEyeInvisible className="text-white text-xl" />
                   ) : (
                     <AiOutlineEye className="text-white text-xl" />
                   )}
                 </div>
-                <div className="text-white ml-8">
-                  <h3 className="font-secondary lg:text-[15px] xl:text-base">
+                <div
+                  onClick={() => setShow2((prev) => !prev)}
+                  className="text-white ml-8 cursor-pointer"
+                >
+                  <h3 className="font-secondary lg:text-[15px] xl:text-base ">
                     Why can't people connect to the web server on my PC?
                   </h3>
                   <p
-                    className={`text-white font-secondary mt-3 md:mt-5 xl:mt-6 
+                    className={`text-white font-secondary mt-3 md:mt-5 xl:mt-6 cursor-auto 
                 ${show2 ? `block` : `hidden`}`}
                   >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -99,22 +99,22 @@ const Faq = () => {
                   show3 ? `border-white` : `border-borderColor`
                 }`}
               >
-                <div
-                  onClick={() => setShow3((prev) => !prev)}
-                  className="absolute top-6 left-2 "
-                >
+                <div className="absolute top-6 left-2 ">
                   {show3 ? (
                     <AiOutlineEyeInvisible className="text-white text-xl" />
                   ) : (
                     <AiOutlineEye className="text-white text-xl" />
                   )}
                 </div>
-                <div className="text-white ml-8">
+                <div
+                  onClick={() => setShow3((prev) => !prev)}
+                  className="text-white ml-8 cursor-pointer"
+                >
                   <h3 className="font-secondary lg:text-[15px] xl:text-base">
                     What domain name should I choose for my site?
                   </h3>
                   <p
-                    className={`text-white font-secondary mt-3 md:mt-5 xl:mt-6 
+                    className={`text-white font-secondary mt-3 md:mt-5 xl:mt-6 cursor-auto 
                 ${show3 ? `block` : `hidden`}`}
                   >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
