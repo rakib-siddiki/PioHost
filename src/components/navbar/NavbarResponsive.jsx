@@ -4,9 +4,11 @@ import { BiSearch } from "react-icons/bi";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 import { AiOutlineCloseSquare, AiOutlineBars } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const NavbarResponsive = () => {
-    const [show,setShow] =useState(false)
+  const [show, setShow] = useState(false);
+  
   return (
     <>
       <nav className=" relative flex flex-col items-center bg-behind md:hidden ">
@@ -16,7 +18,7 @@ const NavbarResponsive = () => {
             <img src={logo} alt="logo" />
             <div
               onClick={() => setShow((prev) => !prev)}
-              className="  text-2xl  text-white cursor-pointer ml-12"
+              className="text-2xl text-white ml-12 cursor-pointer"
             >
               {show ? <AiOutlineCloseSquare /> : <AiOutlineBars />}
             </div>
@@ -30,22 +32,62 @@ const NavbarResponsive = () => {
             <div>
               {/* center  */}
               <div className=" text-left mt-3 mb-5 pl-5">
-                <ul className="font-secondary font-medium text-xl md:text-sm text-white flex flex-col gap-1 ml-[90px] secondPortriait:ml-[105px]  sm:landscape:ml-[235px] sm:landscape3:ml-[270px]">
-                  <li className="active:scale-[.98] cursor-pointe underline-effect">
+                <ul className="font-secondary font-medium text-xl md:text-sm text-white flex flex-col gap-1 ml-[90px] secondPortriait:ml-[105px]  sm:landscape:ml-[235px] sm:landscape3:ml-[270px] cursor-pointer">
+                  <Link
+                    onClick={() => setShow((prev) => !prev)}
+                    to="home2"
+                    smooth={true}
+                    spy={true}
+                    offset={-50}
+                    duration={500}
+                    className="active:scale-[.98]  underline-effect"
+                  >
                     Home{" "}
-                  </li>
-                  <li className="active:scale-[.98] cursor-pointer underline-effect">
+                  </Link>
+                  <Link
+                    onClick={() => setShow((prev) => !prev)}
+                    to="hostiner"
+                    smooth={true}
+                    spy={true}
+                    offset={-100}
+                    duration={500}
+                    className="active:scale-[.98]  underline-effect"
+                  >
                     Hosting
-                  </li>
-                  <li className="active:scale-[.98] cursor-pointer underline-effect">
+                  </Link>
+                  <Link
+                    onClick={() => setShow((prev) => !prev)}
+                    to="whyChosse"
+                    smooth={true}
+                    spy={true}
+                    offset={-70}
+                    duration={500}
+                    className="active:scale-[.98]  underline-effect"
+                  >
                     Pages
-                  </li>
-                  <li className="active:scale-[.98] cursor-pointer underline-effect">
+                  </Link>
+                  <Link
+                    onClick={() => setShow((prev) => !prev)}
+                    to="news"
+                    smooth={true}
+                    spy={true}
+                    offset={-50}
+                    duration={500}
+                    className="active:scale-[.98]  underline-effect"
+                  >
                     News
-                  </li>
-                  <li className="active:scale-[.98] cursor-pointer underline-effect">
+                  </Link>
+                  <Link
+                    onClick={() => setShow((prev) => !prev)}
+                    to="contact2"
+                    smooth={true}
+                    spy={true}
+                    offset={-100}
+                    duration={500}
+                    className="active:scale-[.98]  underline-effect"
+                  >
                     Contact
-                  </li>
+                  </Link>
                 </ul>
               </div>
               {/* center  */}

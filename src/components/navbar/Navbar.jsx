@@ -3,13 +3,14 @@ import { TiKeyOutline } from "react-icons/ti";
 import { BiSearch } from "react-icons/bi";
 import { FaBars } from "react-icons/fa";
 import NavbarResponsive from "./NavbarResponsive";
+import { Link} from "react-scroll";
 const Navbar = () => {
   return (
     <>
-      <section className=" hidden md:block">
+      <section id="home" className=" hidden md:block">
         <div className="flex items-center md:justify-between lg:justify-around  bg-behind pt-5 xl:pt-[50px] px-5">
           {/* left */}
-          <div className=" ">
+          <div>
             <img src={logo} alt="logo" />
           </div>
           {/* left */}
@@ -17,11 +18,50 @@ const Navbar = () => {
           {/* center  */}
           <div className=" text-center">
             <ul className="flex justify-center items-center xl:gap-x-8 font-secondary font-medium text-sm text-white cursor-pointer">
-              <li className="underline-effect hover:after:w-14 active:scale-90">Home +</li>
-              <li className="underline-effect hover:after:w-14 active:scale-90">Hosting +</li>
-              <li className="underline-effect hover:after:w-14 active:scale-90"> Pages +</li>
-              <li className="underline-effect hover:after:w-14 active:scale-90">News</li>
-              <li className="underline-effect hover:after:w-14 active:scale-90">Contact</li>
+              <Link to="home" className="underline-effect hover:after:w-14 ">
+                Home +
+              </Link>
+              <Link
+                to="hostiner"
+                smooth={true}
+                spy={true}
+                offset={-10}
+                duration={500}
+                className="underline-effect hover:after:w-14 "
+              >
+                Hosting +
+              </Link>
+              <Link
+                to="whyChosse"
+                smooth={true}
+                spy={true}
+                offset={50}
+                duration={500}
+                className="underline-effect hover:after:w-14 "
+              >
+                {" "}
+                Pages +
+              </Link>
+              <Link
+                to="news"
+                smooth={true}
+                spy={true}
+                offset={50}
+                duration={500}
+                className="underline-effect hover:after:w-14 "
+              >
+                News
+              </Link>
+              <Link
+                to="contact"
+                smooth={true}
+                spy={true}
+                offset={100}
+                duration={500}
+                className="underline-effect hover:after:w-14 "
+              >
+                Contact
+              </Link>
             </ul>
           </div>
           {/* center  */}

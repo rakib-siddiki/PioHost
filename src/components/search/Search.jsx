@@ -3,7 +3,7 @@ import { BiSearch } from "react-icons/bi";
 const Search = () => {
   return (
     <>
-      <section className="flex flex-col items-center pb-10 md:pb-16 xl:pb-[120px]">
+      <section className="flex flex-col items-center pb-10 md:pb-16 xl:pb-17">
         <div className="relative">
           <input
             type="text"

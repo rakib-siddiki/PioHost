@@ -29,7 +29,7 @@ export default {
         custom: "1px 10px 63px -10px rgba(63,106,255,0.71)",
       },
       spacing: {
-        "17": "120px",
+        17: "120px",
       },
     },
   },

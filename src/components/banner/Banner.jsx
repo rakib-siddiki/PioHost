@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <>
-      <section className="bg-banner bg-cover bg-no-repeat bg-top  xl:pb-16 flex justify-center mt-5 md:mt-0">
+      <section id="home2" className="bg-banner bg-cover bg-no-repeat bg-top  xl:pb-16 flex justify-center mt-5 md:mt-0">
         <div className="flex flex-col items-center pt-10 md:pt-[110px]">
           <p className="font-secondary font-medium text-white text-sm">
             Inclued Every Isometric Illustrations

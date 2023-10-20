@@ -1,4 +1,3 @@
-import React from "react";
 import cloudHosting from "../../assets/planNprice/cloudHosting.png";
 import vpsHosting from "../../assets/planNprice/vpsHosting.png";
 import sharedHosting from "../../assets/planNprice/sharedHosting.png";

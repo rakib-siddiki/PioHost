@@ -5,7 +5,7 @@ import dataSecurity from "../../assets/choose/dataSecurity.png";
 const WhyChoose = () => {
   return (
     <>
-      <section className="py-10 md:py-16 xl:py-17">
+      <section id="whyChosse" className="py-10 md:py-16 xl:py-17">
         <div className="container-main">
           <div className="text-center">
             <h1 className="title">Why Choose Us?</h1>

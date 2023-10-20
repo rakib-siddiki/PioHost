@@ -1,4 +1,4 @@
-import React from "react";
+
 import image1 from "../../assets/service/image1.png";
 import image2 from "../../assets/service/image2.png";
 import image3 from "../../assets/service/image3.png";
@@ -7,7 +7,7 @@ import { FaAngleRight } from "react-icons/fa";
 const Services = () => {
   return (
     <>
-      <section className="xl:pb-[120px]">
+      <section id="hostiner" className="xl:pb-[120px]">
         <div className="container-main">
           {/* title  */}
           <div className="sm:flex justify-between items-center">
