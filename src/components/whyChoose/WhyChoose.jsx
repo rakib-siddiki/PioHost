@@ -60,7 +60,7 @@ const WhyChoose = () => {
             {/* card1  */}
 
             {/* horizontal line  */}
-            <div className=" absolute content-[''] lg:top-[290px]  lg:right-[167px] lg:w-[301px] xl:top-[309px] xl:right-[214px]  xl:w-[330px]  h-[2px] z-10 bg-[#eeefff] "></div>
+            <div className=" absolute content-[''] lg:top-[290px]  lg:right-[167px] lg:w-[301px] xl:top-[309px] xl:right-[214px]  xl:w-[330px]  h-[2px] -z-10 bg-[#eeefff] "></div>
             {/* horizontal line  */}
 
             {/* card1  */}
