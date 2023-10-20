@@ -17,7 +17,7 @@ const Navbar = () => {
 
           {/* center  */}
           <div className=" text-center">
-            <ul className="flex justify-center items-center xl:gap-x-8 font-secondary font-medium text-sm text-white cursor-pointer">
+            <ul className="flex justify-center items-center md:gap-x-4 lg:gap-x-8 font-secondary font-medium text-sm text-white cursor-pointer">
               <Link to="home" className="underline-effect hover:after:w-14 ">
                 Home +
               </Link>
@@ -67,8 +67,8 @@ const Navbar = () => {
           {/* center  */}
 
           {/* right */}
-          <div className=" text-end flex items-center gap-x-2 lg:gap-x-10">
-            <button className="btn bg-primary border-none flex items-center justify-center gap-x-1.5">
+          <div className=" text-end flex items-center gap-x-2 xl:gap-x-10">
+            <button className="btn md:px-4 md:py-3 xl:py-[20px] xl:px-[50px] md:text-xs lg:text-base bg-primary border-none flex items-center justify-center gap-x-1.5">
               <TiKeyOutline className="text-white font-medium " />
               WHMSC
             </button>
